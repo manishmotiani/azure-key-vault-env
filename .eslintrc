@@ -1,0 +1,27 @@
+{
+  "extends": "standard",
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "padded-blocks": [
+      "error",
+      {
+        "blocks": "always"
+      }
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "camelcase": "off"
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "logger": true
+  }
+}

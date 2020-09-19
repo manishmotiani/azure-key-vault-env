@@ -1,0 +1,24 @@
+{
+  "name": "azure-key-vault-env",
+  "version": "1.0.1",
+  "description": "manage your environment variables using azure key vault",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Nitin Sharma",
+    "email": "nitin@renebyte.xyz"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^1.1.0",
+    "@azure/keyvault-secrets": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "standard": "^14.3.4"
+  }
+}
