@@ -1,6 +1,6 @@
 {
   "name": "azure-key-vault-env",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "manage your environment variables using azure key vault",
   "main": "index.js",
   "scripts": {
